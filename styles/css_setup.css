@@ -1,0 +1,124 @@
+:root {
+    --color-primary: #b032d6;
+    --color-secondary: #99B0AA;
+    --color-tertiary: #43A0A2;
+    --br-sm-2: 50px;
+    --box-shadow-1: 0 3px 15px rgba(0,0,0,.3);
+}
+
+.title h1 {
+    text-align: center;
+    color: var(--color-primary);
+}
+
+.title h2 {
+    text-align: center;
+    color: var(--color-secondary);
+}
+
+.title p {
+    text-align: center;
+    color: var(--color-tertiary);
+}
+
+.container {
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.container input[type=text] {
+    width: 40%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+
+.container input[type=url] {
+    width: 40%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+
+.container input[type=password] {
+    width: 40%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+
+.container input[type=text]:focus {
+    border: 3px solid #555;
+}
+
+.container input[type=url]:focus {
+    border: 3px solid #555;
+}
+
+.container input[type=password]:focus {
+    border: 3px solid #555;
+}
+
+.container input[type=color] {
+    width: 40%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+
+.container input[type=color]:focus {
+    border: 3px solid #555;
+}
+
+.container input[type=checkbox] {
+    //design a good looking checkbox
+
+
+}
+
+.container button {
+    background-color: var(--color-secondary);
+    color: var(--color-tertiary);
+    padding: 10px 20px;
+    border: none;
+    border-radius: var(--br-sm-2);
+    cursor: pointer;
+    transition: all .3s ease 0s;
+}
+
+.container button:hover {
+    background-color: var(--color-tertiary);
+    color: var(--color-secondary);
+}
+
+.footer {
+    margin-top: 10%;
+    position: sticky;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: var(--color-primary);
+    color: white;
+    text-align: center;
+}

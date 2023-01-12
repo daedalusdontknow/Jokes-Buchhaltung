@@ -28,7 +28,9 @@ Table of Contents
 Setup & Installation
 </h2>
 
-Currently nothing here
+1. Get the github repo on your Webserver
+2. Go to https://yourdomain.com/setup
+3. Complete the setup
 
 <h2 align="center">
 How to use it

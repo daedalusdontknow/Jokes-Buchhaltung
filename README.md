@@ -18,18 +18,10 @@ This will be a repository for an accounting application that can run on web serv
 Table of Contents
 </h1>
 
-- Setup & Installation
 - Sponsor
+- - Setup & Installation
 - How to use it
 - How to use it as an developer
-
-<h2 align="center">
-Setup & Installation
-</h2>
-
-1. Get the github repo on your Webserver
-2. Go to https://yourdomain.com/setup
-3. Complete the setup
 
 <h2 align="center">
 Sponsor
@@ -39,6 +31,13 @@ There is no sponsor at the moment, but you are welcome to contact me.
 
 <a href="mailto:daedalusdontknow@gmx.de?subject=Sponsor%20or%20Partner" align="center">Contact</a>
 
+<h2 align="center">
+Setup & Installation
+</h2>
+
+1. Get the github repo on your Webserver
+2. Go to https://yourdomain.com/bookkeeping/setup
+3. Complete the setup
 
 <h2 align="center">
 How to use it

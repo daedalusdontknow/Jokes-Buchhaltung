@@ -19,7 +19,7 @@ Table of Contents
 </h1>
 
 - Sponsor
-- - Setup & Installation
+- Setup & Installation
 - How to use it
 - How to use it as an developer
 
